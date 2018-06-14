@@ -1,0 +1,14 @@
+{
+  "env": {
+    "build": {
+      "presets": [
+        ["env", {"modules": false}]
+      ],
+      "plugins": ["external-helpers"]
+    },
+    "test": {
+      "presets": ["env"],
+      "plugins": ["external-helpers"]
+    }
+  }
+}
