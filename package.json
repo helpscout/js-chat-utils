@@ -32,5 +32,8 @@
     "transform": {
       "^.+\\.(js|jsx)$": "babel-jest"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
