@@ -6,5 +6,8 @@ export default {
     file: 'dist/index.js',
     format: 'cjs'
   },
-  plugins: [ babel() ]
+  plugins: [babel({
+    exclude: 'node_modules/**',
+    plugins: ['external-helpers']
+  })]
 }

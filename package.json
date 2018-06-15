@@ -29,6 +29,11 @@
     "rollup-plugin-babel": "^3.0.4"
   },
   "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/src/__tests__/init.js",
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.test.js?(x)",
+      "<rootDir>/src/**/?(*.)(spec|test).js?(x)"
+    ],
     "transform": {
       "^.+\\.(js|jsx)$": "babel-jest"
     }

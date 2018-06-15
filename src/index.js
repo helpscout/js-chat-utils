@@ -1,5 +1,5 @@
-export const add = (a, b) => {
-  return a + b
-}
+import playSound from './playSound'
 
-export default add
+export default {
+  playSound,
+}
